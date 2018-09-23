@@ -10,6 +10,7 @@ insert into college.Student(sid, fname, lname, dob) values('paulg', 'Paul', 'Gor
 insert into college.Student(sid, fname, lname, dob) values('jerryh', 'Jerry', 'Hargrove', '1999-01-03');
 insert into college.Student(sid, fname, lname, dob) values('kev18', 'Kevin', 'Lin', '1999-05-10');
 insert into college.Student(sid, fname, lname, dob) values('bzen26', 'Biswa', 'Zen', '1998-04-22');
+insert into college.Student(sid, fname, lname, dob) values('aprilz', 'April', 'Lopez', '2000-10-01');
 	
 -- add records to Class table
 insert into college.Class(cno, cname, credits) values('CS313E', 'Elements of Software Design', 3);
