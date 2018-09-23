@@ -18,7 +18,8 @@ insert into college.Class(cno, cname, credits) values('CS327E', 'Elements of Dat
 insert into college.Class(cno, cname, credits) values('CS329E', 'Elements of Web Programming', 3);
 	
 -- add records to Teacher table
-insert into college.Teacher(tid, fname, lname, dept) values('mitra', 'Shyamal', 'Mitra', 'Computer Science');	
+insert into college.Teacher(tid, fname, lname, dept) values('mitra', 'Shyamal', 'Mitra', 'Computer Science');
+insert into college.Teacher(tid, fname, lname, dept) values('bulko', 'Bill', 'Bulko', 'Computer Science');		
 insert into college.Teacher(tid, fname, lname, dept) values('cannata', 'Philip', 'Cannata', 'Computer Science');
 insert into college.Teacher(tid, fname, lname, dept) values('scohen', 'Shirley', 'Cohen', 'Computer Science');	
 	
@@ -33,6 +34,7 @@ insert into college.Takes(sid, cno, grade) values('bzen26', 'CS313E', 'B+');
 
 -- add records to Teaches table
 insert into college.Teaches(tid, cno) values('mitra', 'CS313E');
+insert into college.Teaches(tid, cno) values('bulko', 'CS313E');
 insert into college.Teaches(tid, cno) values('mitra', 'CS329E');
 insert into college.Teaches(tid, cno) values('cannata', 'CS326E');
 insert into college.Teaches(tid, cno) values('scohen', 'CS327E');
