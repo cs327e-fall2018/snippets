@@ -1,0 +1,11 @@
+tid,instructor,dept,cno,cname,credits
+mitra,"Mitra, Shyamal",CS,CS313E,Elements of Software Design,3
+mitra,"MITRA, SHYAMAL",Computer Science,CS329E,Elements of Web Programming,3
+cannata,PHILIP CANNATA,CS,CS326E,Elements of Networking,3
+scohen,Shirley Cohen,Computer Science,CS327E,Elements of Databases,3
+bulko,bill bulko,Computer Science,CS313E,Elements of Software Design,3
+cannata,"Cannata, Philip",CS,CS347,Data Management,3
+tran,"Tran, Ngoc",Mathematics,M358K,Applied Statistics,3
+mueller,"MUELLER, PETER",Math,M362K,Probability I,3
+neeman,JOE NEEMAN,Mathematics,M362K,Probability I,3
+koch,"Koch, Hans",Math,M328K,Intro to Number Theory,3
