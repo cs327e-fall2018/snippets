@@ -1,3 +1,6 @@
+-- Example college database used in the first half of the term to learn and practice SQL queries
+-- This version of the database is in 3NF. To work with unnormalized tables, load files Student.csv and Teacher.csv. 
+
 -- create tables for example college database
 create table college.Student(sid string, fname string, lname string, dob date);
 create table college.Class(cno string, cname string, credits int64);
