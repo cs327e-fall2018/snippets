@@ -9,6 +9,9 @@ create table college_split1.Student as
 select distinct sid, fname, lname, dob
 from college_raw.Student;
 
+create table college_split1.New_Student as
+select * from college_raw.New_Student;
+
 create table college_split1.Takes as
 select distinct sid, cno, grade
 from college_raw.Student
