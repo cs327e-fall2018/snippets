@@ -1,5 +1,5 @@
-# snippets
-###### Code snippets and wiki guides.
+### CS327E Fall 2018 snippets repo
+###### This repo contains code snippets and wiki guides.
 
 
 To create the example college database used in class:
