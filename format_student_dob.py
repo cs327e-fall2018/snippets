@@ -20,7 +20,7 @@ class FormatDobFn(beam.DoFn):
         record['dob'] = reformatted_dob
     return [record]
 
-# Project is needed for bigquery data source, even with local execution.
+# Project ID is needed for bigquery data source, even with local execution.
 options = {
     'project': 'cs327e-fa2018'
 }
