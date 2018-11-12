@@ -16,8 +16,8 @@ class MakeRecord(beam.DoFn):
     key, val = element
     sid_val = key.get('sid')
 
-    for tupl in val:
-        for student_record in tupl:
+    for student_records in val:
+        for student_record in student_records:
             if 'lname' in student_record:
                 student_record['sid'] = sid_val
             if 'cno' in student_record:
