@@ -7,3 +7,6 @@ To create the example college database used in class:
 2. Load each csv file as a separate table into a BQ dataset named *college_raw*
 3. Create a BQ dataset named *college_split1* and run [college_split1_ctas_stmts.sql](https://github.com/cs327e-fall2018/snippets/blob/master/college_split1_ctas_stmts.sql)
 4. Create a BQ dataset named *college_split2* and run the Beam scripts [format_student_dob.py](https://github.com/cs327e-fall2018/snippets/blob/master/format_student_dob.py), [normalize_takes_cno.py](https://github.com/cs327e-fall2018/snippets/blob/master/normalize_takes_cno.py), [merge_student_tables.py](https://github.com/cs327e-fall2018/snippets/blob/master/merge_student_tables.py), [dedup_student_table.py](https://github.com/cs327e-fall2018/snippets/blob/master/dedup_student_table.py), [create_student_view.py](https://github.com/cs327e-fall2018/snippets/blob/master/create_student_view.py)
+
+
+##### The H1B database discussed in class is in [this](https://github.com/shirleycohen/h1b_analytics) repo. 
